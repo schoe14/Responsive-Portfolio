@@ -38,6 +38,7 @@
         </nav>
       </div>
     </div>
+
     <div class="container" id="content">
       <div class="row">
         <div class="col-md-12">
@@ -61,12 +62,17 @@
             <textarea class="form-control" rows="7" id="comment"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="submit" class="btn btn-primary" onclick="myFunction()">Submit</button>
           </form>
         </div>
       </div>
-
     </div>
+
+    <script>
+      function myFunction() {
+        alert("Contact form successfully submitted. \nThank you, I will get back to you soon! \nSeohui Choe (chelsea.choe@gmail.com)");
+      }
+    </script>
 
     <div class="panel-footer panel-primary fixed-bottom">
       <div class="brand-footer">Copyright ©</div>
@@ -81,6 +87,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
+
   </body>
 
 </html>
